@@ -167,12 +167,25 @@ instance by your class and export it as default.
 Try to minimize to import/use stores.
 They are just roots so try to add control to objects and avoid usage of stores in classes.
 
+## Examples
+I created [`package.json`][package], [`tsconfig.json`][tsconfig] and [`webpack.config.js`][webpack] for every examples.
+To check examples run below commands in terminal:
+```text
+npm install
+npm run build
+```
+After that just open `*/src/index.html`.
+Enjoy!
+
 [component]: https://reactjs.org/docs/react-component.html
 [mobx]: https://mobx.js.org/
 [observable]: https://mobx.js.org/refguide/observable-decorator.html
 [observer]: https://mobx.js.org/refguide/observer-component.html
+[package]: https://docs.npmjs.com/files/package.json
 [promise]: https://www.promisejs.org/
 [props]: https://reactjs.org/docs/components-and-props.html
 [react]: https://reactjs.org/
 [state]: https://reactjs.org/docs/state-and-lifecycle.html
+[tsconfig]: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 [typescript]: https://www.typescriptlang.org/
+[webpack]: https://webpack.js.org/configuration/
