@@ -168,7 +168,6 @@ Try to minimize to import/use stores.
 They are just roots so try to add control to objects and avoid usage of stores in classes.
 
 ## Examples
-I created [`package.json`][package], [`tsconfig.json`][tsconfig] and [`webpack.config.js`][webpack] for every examples.
 To check examples run below commands in terminal:
 ```text
 npm install
