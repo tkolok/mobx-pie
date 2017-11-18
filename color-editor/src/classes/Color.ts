@@ -15,20 +15,20 @@ class Color implements IColor {
     public red: number = 0;
 
     public setBlue(blue: number): void {
-        this.blue = this.setValue(blue);
+        this.blue = getValue(blue);
     }
 
     public setGreen(green: number): void {
-        this.green = this.setValue(green);
+        this.green = getValue(green);
     }
 
     public setRed(red: number): void {
-        this.red = this.setValue(red);
+        this.red = getValue(red);
     }
+}
 
-    private setValue(value: number): number {
-        return Math.floor(Math.min(Math.max(value, 0), 255));
-    }
+function getValue(value: number): number {
+    return Math.floor(Math.min(Math.max(value, 0), 255));
 }
 
 export default Color;

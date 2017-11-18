@@ -122,7 +122,7 @@ interface Props {
     /* ... */
 }
 
-class CMy extends React.Component<Props, any> {
+class CMyComponent extends React.Component<Props, any> {
     /* ... */
 }
 ```
@@ -147,7 +147,7 @@ class Store {
     @observable
     public todos: Todo[] = [];
 
-    public addTodo(text: string) {
+    public addTodo(text: string): void {
         this.todos.push(new Todo(text));
     }
 }
