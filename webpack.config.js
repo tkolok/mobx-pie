@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const examples = ['mailbox', 'todos', 'tree'];
+const examples = ['color-editor', 'mailbox', 'todos', 'tree'];
 
 module.exports = examples.map(function(example) {
     return {
