@@ -20,6 +20,10 @@
   },
   "license": "UNLICENSED",
   "name": "mobx-pie",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tkolok/mobx-pie"
+  },
   "scripts": {
     "build": "webpack"
   },
